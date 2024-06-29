@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jetlend"
+version = "0.1.0"
+description = ""
+authors = ["Aleksei Grachev <aleksei.grachev@alberblanc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
